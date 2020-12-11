@@ -354,7 +354,7 @@ img {
 @media (min-width: 768px) {
   /*Nav bar*/
   .nav-item {
-    text-align: center !important;
+    text-align: left !important;
     padding: 0;
     border-bottom: 0px;
   }

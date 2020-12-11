@@ -15,7 +15,7 @@ class Productpage extends Component {
       .then((products) => {
         const productList = products.products;
         const singleProduct = productList.filter(
-          (x) => x.product_url == this.state.productID
+          (x) => x.product_url==this.state.productID
         );
         this.setState((state) => {
           return {
